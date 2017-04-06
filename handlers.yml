@@ -74,6 +74,7 @@ advertisement:
   Bypass_With_Permission: "chatcontrol.bypass.ad"
   Ignored_In_Commands:
     - // # WorldEdit
+    - /brush
     - /auction
     - /register
     - /reg
@@ -94,6 +95,7 @@ swear:
   Bypass_With_Permission: "chatcontrol.bypass.swear"
   Ignored_In_Commands:
     - // # WorldEdit
+    - /brush
     - /auction
     - /register
     - /reg
