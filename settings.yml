@@ -355,8 +355,23 @@ Writer:
   Write_Commands:
   - tell
 
+# Advanced: Affects the order in which we format and check the chat. No need to touch.
+# Read https://github.com/kangarko/ChatControl-Pro/wiki/Listener-Priorities for more information.
+# 
+# Plugins which may require changing priority of Formatter: FactionsChat, BanManager and WorldGuard.
+# You need to find the correct combination for your server yourself. Restart after each change.
+Listener_Priority:
+
+  # Used for chat formatting. Should have the last say, meaning highest priority.
+  Formatter: NORMAL
+  
+  # Used for checking a message against duplication, time or rules.
+  Checker: NORMAL
+
+# Minimum amount of players online for rules and anti-spam.
 Minimum_Players_To_Enable_Checks: 0
-Op_Has_Permissions: true
+
+# How much time a rule has to process a message? Used to prevent server freezing with malformed rules.
 Regex_Timeout_Milis: 100
 
 # To customize a locale, make file in localization/messages_LOCALENAME.yml
