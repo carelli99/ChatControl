@@ -1,0 +1,72 @@
+# ---------------------------------------------------------
+# This file contains most of the messages
+# and provides simple way to translate the plugin.
+# 
+# If you want to customize the localization, simply
+# copy this file to plugin's folder localization and start editing.
+# Example: plugins/ChatControl/localization/messages_en.yml
+# It will still be updated with new values in future releases.
+#
+# To not display a message, set it to 'none'
+# Messages supports variables beginning with % and color codes with & character
+# ---------------------------------------------------------
+
+Cannot:
+Broadcast_Empty_Message: '&c对事件 %event 的提示为空. 无公告.'
+Chat_While_Muted: '&7全服禁言中, 按基本法你是不能说话的!'
+Command_While_Muted: '&7全服禁言中, 嘘嘘嘘, 不要用指令!'
+Chat_Until_Moved: '&7说话前要先走两步~'
+
+Anti_Bot:
+Rejoin_Message: '%prefix\n\n&6请等候 &7%time 秒&6再进行登陆.'
+
+Anti_Spam:
+Similar_Message: '&c请不要重复你已经说过的话.'
+Similar_Command: '&c请不要重复你已经刷过的指令.'
+Too_Much_Caps: '&c不要打辣么多的大写字母!'
+Command_Wait_Message: '&c请等候 %time 秒再使用这个指令.'
+Chat_Wait_Message: '&c请等候 %time 秒再说下一句话.'
+
+Chat_Mute:
+Mute: '&7全服禁言已开启.'
+Unmute: '&7全服禁言已关闭.'
+Mute_Broadcast: '%server &6%player 开启了全服禁言.'
+Unmute_Broadcast: '%server &6%player 关闭了全服禁言.'
+Anonymous_Mute_Broadcast: '%server 开启了全服禁言.'
+Anonymous_Unmute_Broadcast: '%server 取消了全服禁言.'
+
+Chat_Clear:
+Broadcast: '%server &6%player 清空了聊天栏.'
+Anonymous_Broadcast: '%server 聊天栏已被清空.'
+Console_Player_Message: '%prefix &7控制台提示已被清空.'
+Console_Message: '&7控制台提示被 %player 清空'
+Chat_Staff_Message: '&7^----- [ == &f聊天栏已被 %player 清空 &7== ] -----^'
+
+Signs:
+Duplicate_Text: '%server 你是不可以连放好几张一样的牌子的!'
+Duplicate_Text_Staff: '&c%player 放置了相同内容的木牌: %message'
+Broke_When_Violated_A_Rule: 你的木牌放置失败, 可能是被续了!
+
+Usage:
+Fake_Command: '%prefix 使用: /chatcontrol fake <&bjoin&f/&aleave&f/&ekick&f>'
+
+Update_Available: '&2新版本 &3ChatControl&2 可获取.\n&2当前版本:
+&f%current&2; 新版本: &f%new\n&2您可以在配置文件中关闭这个提示.'
+
+No_Permission: '&c缺少权限节点 (%perm).'
+Reload_Complete: '%prefix &2配置文件已重载.'
+Reload_Failed: '%prefix &c配置文件重载失败, 检查控制台. 错误记录为: &4%error'
+Wrong_Parameters: '&c错误的参数或缺少权限.'
+Wrong_Arguments: '&c错误的参数. 使用 &6/chc list&c 查看指令列表.'
+
+General:
+Player_Join: 玩家加入
+Player_Quit: 玩家退出
+Player_Kick: 玩家被踢出
+Prefix: '&8[&3ChatControl&8]&7'
+Server_Prefix: '&8[&4服务器&8]&c'
+Console: '&c控制台'
+Reason: '&7理由: &f%reason'
+Sign: 木牌
+Command: 指令
+Seconds: 秒, 秒
