@@ -20,14 +20,14 @@ Cannot:
   Chat_Until_Moved: '&7Je kan niet praten todat je gaat lopen!'
 
 Anti_Bot:
-  Rejoin_Message: '%prefix\n\n&6Please wacht &7%time %seconds&6 voor opnieuw inloggen.'
+  Rejoin_Message: '%prefix\n\n&6Wacht &7%time %seconds&6 om opnieuw in te loggen.'
 
 Anti_Spam:
-  Similar_Message: '&cPlease, herhaal niet het zelfde (or similar) bericht.'
-  Similar_Command: '&cPlease, herhaal niet het zelfde (or similar) command.'
-  Too_Much_Caps: '&cGebruik niet zo veel CAPS LOCK!'
-  Command_Wait_Message: '&cPlease, wacht %time %seconds voor het volgende command.'
-  Chat_Wait_Message: '&cPlease, wacht %time %seconds voor je volgende message.'
+  Similar_Message: '&cHerhaal niet het zelfde (of gelijkwaardige) berichten.'
+  Similar_Command: '&cHerhaal niet het zelfde (or gelijkwaardige) commands.'
+  Too_Much_Caps: '&cGebruik niet zo veel CAPS OF HOOFDLETTERS!'
+  Command_Wait_Message: '&cWacht %time %seconds voor je volgende command.'
+  Chat_Wait_Message: '&cWacht %time %seconds voor je volgende bericht.'
 
 Chat_Mute:
   Mute: '&7Chat is succesvol gesloten.'
@@ -52,8 +52,8 @@ Signs:
 Usage:
   Fake_Command: '%prefix Usage: /chatcontrol fake <&bjoin&f/&aleave&f/&ekick&f>'
 
-Update_Available: '&2Er is een nieuwe versie van &3ChatControl&2 beschikbaar.\n&2actuele version:
-  &f%current&2; New version: &f%new\n&2Je kan in de config instellen of je dit bericht wil.'
+Update_Available: '&2Er is een nieuwe versie van &3ChatControl&2 beschikbaar.\n&2actuele versie:
+  &f%current&2; Newe versie: &f%new\n&2Je kan in de config instellen of je dit bericht wil verbergen.'
 
 No_Permission: '&cVerkeerde permission (%perm).'
 Reload_Complete: '%prefix &2Confugiratie succesvol herladen.'
