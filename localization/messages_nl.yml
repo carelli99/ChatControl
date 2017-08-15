@@ -1,22 +1,22 @@
 # ---------------------------------------------------------
-# This file contains most of the messages
-# and provides simple way to translate the plugin.
+# Dit bestand bevat het meeste van de berichten,
+# en is een simpele manier om de berichten te vertalen.
 # 
-# If you want to customize the localization, simply
-# copy this file to plugin's folder localization and start editing.
-# Example: plugins/ChatControl/localization/messages_en.yml
-# It will still be updated with new values in future releases.
+# Als de berichten wilt aanpassen dan kan dat hier of gewoon:
+# kopieer dit bestand naar de map "localization" en begin met aanpassen.
+# Voorbeeld: plugins/ChatControl/localization/messages_nl.yml
+# let wel op dat bij nieuwe plugin uitgaven dingen kunnen veranderen!
 #
-# To not display a message, set it to 'none'
-# Messages supports variables beginning with % and color codes with & character
+# Als je een bericht niet weer weergeven zet dan "none" er achter.
+# Waardes beginnen met een % en kleuren codes met een & teken
 #
-# Translation by sander0542.
+# Vertaald door xknat & sander0542.
 # ---------------------------------------------------------
 
 Cannot:
   Broadcast_Empty_Message: '&cBericht op %event is leeg. Geen omroep.'
   Chat_While_Muted: '&7Je kan niet praten als de chat gesloten is!'
-  Command_While_Muted: '&7Je kan dit command niet gebruiken wanneer de chat gesloten it!'
+  Command_While_Muted: '&7Je kan deze opdracht niet gebruiken wanneer de chat gesloten it!'
   Chat_Until_Moved: '&7Je kan niet praten todat je gaat lopen!'
 
 Anti_Bot:
@@ -24,9 +24,9 @@ Anti_Bot:
 
 Anti_Spam:
   Similar_Message: '&cHerhaal niet het zelfde (of gelijkwaardige) berichten.'
-  Similar_Command: '&cHerhaal niet het zelfde (or gelijkwaardige) commands.'
+  Similar_Command: '&cHerhaal niet het zelfde (or gelijkwaardige) opdrachten.'
   Too_Much_Caps: '&cGebruik niet zo veel CAPS OF HOOFDLETTERS!'
-  Command_Wait_Message: '&cWacht %time %seconds voor je volgende command.'
+  Command_Wait_Message: '&cWacht %time %seconds voor je volgende opdrachten.'
   Chat_Wait_Message: '&cWacht %time %seconds voor je volgende bericht.'
 
 Chat_Mute:
@@ -35,7 +35,7 @@ Chat_Mute:
   Mute_Broadcast: '%server &6%player heeft de chat gesloten.'
   Unmute_Broadcast: '%server &6%player heeft de chat geopend.'
   Anonymous_Mute_Broadcast: '%server Initiated global chat gesloten.'
-  Anonymous_Unmute_Broadcast: '%server Global chat geopend.'
+  Anonymous_Unmute_Broadcast: '%server Globale chat is geopend.'
 
 Chat_Clear:
   Broadcast: '%server &6%player maakte de chat leeg.'
@@ -45,21 +45,21 @@ Chat_Clear:
   Chat_Staff_Message: '&7^----- [ == &fChat is geleegd door %player &7== ] -----^'
 
 Signs:
-  Duplicate_Text: '%server je kan niet meerdere signs maken met dezelfde tekst!'
-  Duplicate_Text_Staff: '&c%player heeft een sign gemaakt met de tekst: %message'
-  Broke_When_Violated_A_Rule: Je sign is kapot, er moet iets mis mee zijn!
+  Duplicate_Text: '%server je kan niet meerdere borden maken met dezelfde tekst!'
+  Duplicate_Text_Staff: '&c%player heeft een bord gemaakt met de tekst: %message'
+  Broke_When_Violated_A_Rule: Je bord is kapot, er moet iets mis mee zijn!
 
 Usage:
-  Fake_Command: '%prefix Usage: /chatcontrol fake <&bjoin&f/&aleave&f/&ekick&f>'
+  Fake_Command: '%prefix Gebruik: /chatcontrol fake <&bjoin&f/&aleave&f/&ekick&f>'
 
 Update_Available: '&2Er is een nieuwe versie van &3ChatControl&2 beschikbaar.\n&2actuele versie:
-  &f%current&2; Newe versie: &f%new\n&2Je kan in de config instellen of je dit bericht wil verbergen.'
+  &f%current&2; Nieuwe versie: &f%new\n&2Je kan in de config instellen of je dit bericht wil verbergen.'
 
-No_Permission: '&cVerkeerde permission (%perm).'
+No_Permission: '&cNiet genoeg toestemming (%perm).'
 Reload_Complete: '%prefix &2Confugiratie succesvol herladen.'
 Reload_Failed: '%prefix &cHet herladen van de confugiratie ging fout, kijk in de console. De fout was: &4%error'
-Wrong_Parameters: '&cVerkeerde parameters of missende permission.'
-Wrong_Arguments: '&cVerkeerd command. Type &6/chc list&c voor de command lijst.'
+Wrong_Parameters: '&cVerkeerde waarde of missende permissies.'
+Wrong_Arguments: '&cVerkeerde opdracht. Type &6/chc list&c voor de opdrachten lijst.'
 
 General:
   Player_Join: player join
@@ -69,6 +69,6 @@ General:
   Server_Prefix: '&8[&4Server&8]&c'
   Console: '&cserver'
   Reason: '&7Reden: &f%reason'
-  Sign: SIGN
-  Command: COMMAND
-  Seconds: seconde, secondes
+  Sign: BORD
+  Command: OPDRACHT
+  Seconds: seconde, seconden
