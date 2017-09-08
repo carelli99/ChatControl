@@ -376,7 +376,8 @@ Regex_Timeout_Milis: 100
 
 # To customize a locale, make file in localization/messages_LOCALENAME.yml
 # It will be filled with all the values.
-# Current available locales: en (english), de (german), sk (slovak), cz (czech), fr (french), nl (holand), se (swedish), es (spanish) and cn (chinese)
+# Current available locales: en (English), de (German), sk (Slovak), cz (Czech), fr (French), nl (Holand), se (Swedish), es (Spanish),
+# vi (Vietnamese), ro (Romanian) and cn (Chinese)
 Locale: en
 
 # Time of some plugin's operations is measured.
@@ -400,6 +401,10 @@ Reset_Cache_On_Quit: false
 # Set to true if the \n operator does not work for you.
 # Before that, please ensure you've saved the file in an encoding that supports new line operator.
 Enforce_New_Line: false
+
+# Search for players geographical information for %countryname and %countrycode variables?
+# Disable to improve performance a tiny bit.
+Lookup_Geo_Data: true
 
 # Enable if you are having issues, will tell you detailed info in the console.
 Debug: false
