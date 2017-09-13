@@ -11,7 +11,7 @@ package kangarko.chatcontrol.utils;
  * Here the permission is: chatcontrol.commands.mute
  */
 public class Permissions {
-	
+
 	private Permissions() {
 	}
 
@@ -87,18 +87,18 @@ public class Permissions {
 		// No dot will not be inserted after player's messages.
 		public static final String PUNCTUATE = "chatcontrol.bypass.punctuate"; // TODO NB: Permission changed in v5.0.0 from insertdot to punctuate.
 
-		// TODO New in 5.0.0 Allow player to make multiple signs with same text.
+		// Allow player to make multiple signs with same text.
 		public static final String SIGN_DUPLICATION = "chatcontrol.bypass.signduplication";
-		
-		// TODO New in 5.0.0 Allow player to bypass custom rules and handlers.
+
+		// Allow player to bypass custom rules and handlers.
 		public static final String RULES = "chatcontrol.bypass.rules";
-	
-		// TODO New in 5.2.1 Allow player to bypass vanilla's "disconnect.spam" kick when sending messages too quickly.
+
+		// Allow player to bypass vanilla's "disconnect.spam" kick when sending messages too quickly.
 		public static final String SPAM_KICK = "chatcontrol.bypass.spamkick";
 	}
 
 	public class Notify {
-		// TODO New in 5.0.0 Receive a warning when a player makes multiple signs with the same text.
+		// Receive a warning when a player makes multiple signs with the same text.
 		public static final String SIGN_DUPLICATION = "chatcontrol.notify.signduplication";
 
 		// Receive a warning when a new version of plugin is available.
@@ -109,8 +109,6 @@ public class Permissions {
 	}
 
 	public class Formatter {
-		// TODO NB: Permissions related to formatting/coloring chat changed in v5.0.0. Now with ".format." in between.
-
 		// Permission to use colors 1-9 and a-f with the '&' character.
 		public static final String COLOR = "chatcontrol.chat.format.color";
 
@@ -131,14 +129,13 @@ public class Permissions {
 
 		// Permission to speak in global chat when chat range is enabled and message starts with '!'.
 		public static final String GLOBAL_CHAT = "chatcontrol.chat.global";
-		
+
 		// Permission to receive everyone's messages when ranged mode is enabled.
 		public static final String SPY = "chatcontrol.chat.spy";
-		
+
 		// Permission speak for all players in the entire world when ranged mode is enabled.
 		public static final String OVERRIDE_RANGED_WORLD = "chatcontrol.chat.overrideranged";
 	}
 
-	// TODO New in 5.0.0 Permission to view timed message from broadcaster. (true by default, needs to be explicitly denied)
 	public static final String VIEW_TIMED_MESSAGES = "chatcontrol.broadcaster.view";
 }
