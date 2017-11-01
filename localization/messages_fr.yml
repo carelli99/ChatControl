@@ -67,7 +67,6 @@ Invalid:
 Update_Available: |-
   &2Une mise à jour de &3ChatControl&2 est disponible.
   &2Version actuelle : &f%current&2; Nouvelle : &f%new
-  &2URL : &7https://www.spigotmc.org/resources/10258/.
 No_Permission: '&cPermissions insuffisantes (%perm).'
 No_Console: '&cCette commande n''est pas accessible depuis la console !'
 Reload_Complete: '%prefix &2Configuration rechargée avec succès.'
